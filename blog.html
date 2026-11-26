@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Blog - IT 130</title>
+</head>
+<body>
+
+    <!-- ===== EN-TÊTE DE LA PAGE ===== -->
+    <header id="accueil">
+        <h1>Mon Blog Personnel</h1>
+        <p>Bienvenue sur mon blog créé dans le cadre du cours IT 130.</p>
+    </header>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="#articles">Articles</a></li>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ===== CONTENU PRINCIPAL ===== -->
+    <main>
+
+        <!-- Article 1 -->
+        <article id="articles">
+            <h2>Mon Premier Article</h2>
+            <p>Publié le <time datetime="2026-01-15">15 janvier 2026</time></p>
+            <p>Voici le contenu de mon premier article. J'apprends le HTML sémantique.</p>
+        </article>
+
+        <!-- Article 2 -->
+        <article>
+            <h2>Mon Deuxième Article</h2>
+            <p>Publié le <time datetime="2026-01-20">20 janvier 2026</time></p>
+            <p>J'apprends maintenant à structurer une page avec des balises sémantiques.</p>
+            <p>Les balises <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>,
+               <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code> et
+               <code>&lt;footer&gt;</code> sont mes préférées.</p>
+        </article>
+
+        <!-- Article 3 (devoir semaine 3) -->
+        <article>
+            <h2>Mon Troisième Article</h2>
+            <p>Publié le <time datetime="2026-01-27">27 janvier 2026</time></p>
+            <p>Cette semaine, j'ai découvert les formulaires HTML5, les tableaux et
+               l'intégration de médias.</p>
+            <p>La validation native (<code>required</code>, <code>minlength</code>,
+               <code>pattern</code>) permet de contrôler les champs sans écrire de JavaScript.</p>
+        </article>
+
+        <!-- Section À propos -->
+        <section id="apropos">
+            <h2>À propos de moi</h2>
+            <p>Je suis étudiant en <strong>Génie Logiciel</strong> à IPNET Institute of Technology.</p>
+            <p>J'apprends le développement Web pour devenir un développeur Full Stack.</p>
+
+            <!-- Image avec texte alternatif et légende -->
+            <figure>
+                <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 300 200'%3E%3Crect width='300' height='200' fill='%23bfe3f5'/%3E%3Ccircle cx='235' cy='55' r='24' fill='%23ffd54a'/%3E%3Cpolygon points='0,200 90,80 170,200' fill='%2354896b'/%3E%3Cpolygon points='110,200 200,100 300,200' fill='%2337664f'/%3E%3C/svg%3E"
+                     alt="Image de démonstration montrant un paysage de montagnes sous un ciel bleu"
+                     width="300" height="200">
+                <figcaption>Figure 1 : Une image de démonstration avec une légende.</figcaption>
+            </figure>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Vous pouvez me contacter à l'adresse suivante :</p>
+            <p><a href="mailto:etudiant@ipnetinstitute.com">etudiant@ipnetinstitute.com</a></p>
+        </section>
+
+    </main>
+
+    <!-- ===== BARRE LATÉRALE ===== -->
+    <aside>
+        <h3>Liens Utiles</h3>
+        <ul>
+            <li><a href="https://developer.mozilla.org/fr/" target="_blank" rel="noopener">MDN Web Docs</a></li>
+            <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener">W3Schools</a></li>
+            <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+    </aside>
+
+    <!-- ===== PIED DE PAGE ===== -->
+    <footer>
+        <p>© 2026 Mon Blog - Créé par WORAH-MENSAH Isaac Junior Sewa</p>
+    </footer>
+
+</body>
+</html>
